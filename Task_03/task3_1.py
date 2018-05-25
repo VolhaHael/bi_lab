@@ -15,9 +15,6 @@ print(list_2)
 # the list ['1a', '2a', '3a', '4a'].
 
 list_3 = ['1a', '2a', '3a', '4a']
-
-# Compare lists (i thought there was such task)
-
 print()
 print('list_1 and list_3 the same: ')
 print(list_1 == list_3 and list_3 == list_1)
