@@ -14,7 +14,7 @@ print(list_2)
 # 3 Use a list comprehension to construct
 # the list ['1a', '2a', '3a', '4a'].
 
-list_3 = [str(i+1) + "a" for i in range(3)]
+list_3 = [str(i + 1) + "a" for i in range(3)]
 print()
 print('list_1 and list_3 the same: ')
 print(list_1 == list_3 and list_3 == list_1)
