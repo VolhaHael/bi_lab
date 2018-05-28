@@ -1,7 +1,7 @@
 # 1 Use a list comprehension to construct the
 # list ['ab', 'ac', 'ad', 'bb', 'bc', 'bd']
 
-list_1 = ['ab', 'ac', 'ad', 'bb', 'bc', 'bd']
+list_1 = [a + b for a in 'ab' for b in 'bcd']
 print(list_1)
 
 # 2 Use a slice on the above list to construct the
@@ -14,7 +14,7 @@ print(list_2)
 # 3 Use a list comprehension to construct
 # the list ['1a', '2a', '3a', '4a'].
 
-list_3 = ['1a', '2a', '3a', '4a']
+list_3 = [str(i+1) + "a" for i in range(3)]
 print()
 print('list_1 and list_3 the same: ')
 print(list_1 == list_3 and list_3 == list_1)

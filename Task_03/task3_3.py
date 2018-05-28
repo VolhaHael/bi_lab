@@ -4,14 +4,14 @@
 # function argument. Default is 20.
 
 
-def generate_numbers(numbers):
+def generate_numbers(numbers=20):
     dict1_ = {}
     for i in range(1, numbers + 1):
         dict1_[i] = i * i
     return dict1_
 
 
-print(generate_numbers(20))
+print(generate_numbers())
 print()
 
 # 2 Define a function count_characters(count_me_string) which

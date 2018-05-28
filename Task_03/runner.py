@@ -2,7 +2,7 @@ import pytask
 
 
 def runner(args):
-    if(len(args)) != 0:
+    if args != 0:
         for i in args:
             getattr(pytask, i)()
     else:

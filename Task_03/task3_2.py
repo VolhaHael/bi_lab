@@ -1,7 +1,7 @@
 # 1 Create the list ['a', 'b', 'c'], then create a tuple from that list.
 
 list_1 = ['a', 'b', 'c']
-tuple_1 = tuple((list_1[:]))
+tuple_1 = tuple(list_1)
 print('list: ')
 print(list_1)
 print('tuple: ')
@@ -13,7 +13,7 @@ print()
 # not entirely obvious)
 
 tuple_2 = ('a', 'b', 'c')
-list_2 = list(tuple_2[:])
+list_2 = list(tuple_2)
 print('tuple: ')
 print(tuple_1)
 print('list: ')
