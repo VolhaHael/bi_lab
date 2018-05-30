@@ -1,6 +1,7 @@
 import unittest
 from fb import fizzbuzz
 
+
 class Fizzbuzz_test(unittest.TestCase):
     def test_business_as_usual(self):
         self.assertEqual(fizzbuzz(1), 1)
