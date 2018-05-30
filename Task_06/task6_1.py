@@ -1,5 +1,5 @@
-import unittest
 from fb import fizzbuzz
+import unittest
 
 
 class Fizzbuzz_test(unittest.TestCase):
