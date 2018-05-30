@@ -1,6 +1,5 @@
-import unittest
 from fb import fizzbuzz
-
+import unittest
 
 class Fizzbuzz_test(unittest.TestCase):
     def test_business_as_usual(self):
