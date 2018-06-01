@@ -1,7 +1,7 @@
 # function to compute 5/0 with try/except
 def zero_div():
     try:
-        print(5/0)
+        print(5 / 0)
     except ZeroDivisionError as zde:
         for err in zde.args:
             print(err)
